@@ -6,7 +6,7 @@
 /*   By: sholiak <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/30 10:10:51 by sholiak           #+#    #+#             */
-/*   Updated: 2019/05/18 21:39:32 by sholiak          ###   ########.fr       */
+/*   Updated: 2019/05/18 22:17:39 by sholiak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int					ft_strlen(const char *str);
 char				*ft_strncat(char *dest, const char *src, size_t n);
 char				*ft_strncpy(char *dest, const char *src, size_t n);
 char				*ft_strnstr(const char *str, const char *word, size_t len);
-char				*ft_strchr(const char *str, int c);
+char				*ft_strrchr(const char *str, int c);
 char				*ft_strstr(const char *str, const char *word);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);

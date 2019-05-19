@@ -6,7 +6,7 @@
 /*   By: sholiak <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/06 11:42:27 by sholiak           #+#    #+#             */
-/*   Updated: 2019/05/10 19:18:56 by sholiak          ###   ########.fr       */
+/*   Updated: 2019/05/18 22:14:25 by sholiak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,8 @@ void	ft_putnbr_fd(int n, int fd)
 {
 	if (n == -2147483648)
 	{
-		ft_putchar_fd('-', fd);
-		ft_putchar_fd('2', fd);
-		ft_putnbr_fd(147483648, fd);
+		ft_putstr_fd("-2147483648", fd);
+		return ;
 	}
 	if (n < 0)
 	{
