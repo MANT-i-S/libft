@@ -6,7 +6,7 @@
 /*   By: sholiak <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/30 10:10:51 by sholiak           #+#    #+#             */
-/*   Updated: 2019/05/18 22:17:39 by sholiak          ###   ########.fr       */
+/*   Updated: 2019/05/18 22:29:30 by sholiak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int					ft_strncmp(const char *s1, const char *s2, size_t n);
 char				*ft_strcpy(char *dest, const char *src);
 char				*ft_strdup(const char *src);
 size_t				ft_strlcat(char *dest, const char *src, size_t n);
-int					ft_strlen(const char *str);
+size_t				ft_strlen(const char *str);
 char				*ft_strncat(char *dest, const char *src, size_t n);
 char				*ft_strncpy(char *dest, const char *src, size_t n);
 char				*ft_strnstr(const char *str, const char *word, size_t len);
