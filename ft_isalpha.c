@@ -6,16 +6,13 @@
 /*   By: sholiak <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/29 13:19:40 by sholiak           #+#    #+#             */
-/*   Updated: 2019/04/29 15:15:47 by sholiak          ###   ########.fr       */
+/*   Updated: 2019/05/19 12:33:14 by sholiak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isalpha(int arg)
 {
-	if (arg > 64 && arg < 91)
+	if ((arg >= 'A' && arg <= 'Z') || (arg >= 'a' && arg <= 'z'))
 		return (1);
-	if (arg > 96 && arg < 123)
-		return (2);
-	else
-		return (0);
+	return (0);
 }
